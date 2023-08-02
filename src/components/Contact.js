@@ -3,9 +3,9 @@ import React from "react";
 function Contact() {
   return (
     <div>
-      <nav></nav>
+     <h1>Contact Page</h1> 
 
-      <footer></footer>
+      
     </div>
   );
 }
