@@ -1,37 +1,35 @@
-import FooterLogo from "./Images/Profile_picture.jpeg";
 import React from "react";
-import Socials from "../Socials";
-import Link from "next/link";
-import Button from "../Button";
 
-const Footer = ({}) => {
-  return (
-    <>
-      <div className="mt-5 laptop:mt-40 p-2 laptop:p-0">
-        <div>
-          <h1 className="text-2xl text-bold">Contact.</h1>
-          <div className="mt-10">
-            <h1 className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl text-bold">
-              LET&apos;S WORK
-            </h1>
-            <h1 className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl text-bold">
-              TOGETHER
-            </h1>
-            <Button type="primary">Schedule a call</Button>
-            <div className="mt-10">
-              <Socials />
-            </div>
-          </div>
+const Footer = () => (
+  <footer className="page-footer font-small blue pt-4">
+    <div className="container-fluid text-center text-md-left">
+      <div className="row">
+        <div className="col-md-6 mt-md-0 mt-3">
+          <h5 className="text-uppercase">Footer Content</h5>
+          <p>
+            <a target="_blank" href="https://google.com">
+              Github
+            </a>
+            <a target="_blank" href="https://google.com">
+              LinkedIn
+            </a>
+            <a target="_blank" href="https://google.com">
+              Instagram
+            </a>
+          </p>
+        </div>
+
+        <hr className="clearfix w-100 d-md-none pb-0" />
+
+        <div className="col-md-3 mb-md-0 mb-3">
         </div>
       </div>
-      <h1 className="text-sm text-bold mt-2 laptop:mt-10 p-2 laptop:p-0">
-        Made With ❤ by{" "}
-        <Link href="http://www.chetanverma.com">
-          <a className="underline underline-offset-1">Chetan Verma</a>
-        </Link>
-      </h1>
-    </>
-  );
-};
+    </div>
 
+    <div className="footer-copyright text-center py-3">
+      © 2020 Copyright:
+      <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+    </div>
+  </footer>
+);
 export default Footer;
