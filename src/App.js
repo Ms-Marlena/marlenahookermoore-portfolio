@@ -4,6 +4,7 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Header from './components/Header';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   const [page, setPage] = useState("About");
@@ -23,9 +24,11 @@ function App() {
   return (
     <div>
       <Header handlePageChange={handlePageChange} />
-      {/* <nav>
+      <nav>
         <button onClick={() => setPage("Portfolio")}>Portfolio</button>
-      </nav> */}
+        <button onClick={() => setPage("About")}>About</button>
+        <button onClick={() => setPage("Contact")}>Contact</button>
+      </nav>
       {displayPage()}
     </div>
   );
