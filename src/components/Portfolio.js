@@ -1,12 +1,10 @@
-import ProjectPicOne from "./Images/Profile_picture.jpeg";
-import ProjectPicTwo from "./Images/Profile_picture.jpeg";
-import ProjectPicThree from "./Images/Profile_picture.jpeg";
-import ProjectPicFour from "./Images/Profile_picture.jpeg";
-import ProjectPicFive from "./Images/Profile_picture.jpeg";
-import ProjectPicSix from "./Images/Profile_picture.jpeg";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
+import React, { useState } from "react";
+import "../App.css";
+import Header from "./Header";
+import Footer from "./Footer";
 
 function Portfolio() {
   return (
@@ -14,28 +12,63 @@ function Portfolio() {
       <Row xs={1} md={2} className="g-4">
         <Col>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Img
+              variant="top"
+              src={require("../assets/images/screenshots/screenshot-p1.png")}
+              alt={"screenshot of project 1"}
+            />
             <Card.Body>
-              <Card.Title>Project 1</Card.Title>
-              <Card.Text>Copy/Paste from README</Card.Text>
+              <Card.Title>Password Generator</Card.Title>
+              <Card.Text>
+                <a target="_blank" href="https://google.com">
+                  Repository
+                </a>{" "}
+                <a target="_blank" href="https://google.com">
+                  Deployed App / Video Walkthrough
+                </a>
+              </Card.Text>
             </Card.Body>
           </Card>
         </Col>
         <Col>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Img
+              variant="top"
+              src={require("../assets/images/screenshots/screenshot-p2.png")}
+              alt={"screenshot of project 2"}
+            />
             <Card.Body>
-              <Card.Title>Project 2</Card.Title>
-              <Card.Text>Copy/Paste from README</Card.Text>
+              <Card.Title>README Generator</Card.Title>
+              <Card.Text>
+                {" "}
+                <a target="_blank" href="https://google.com">
+                  REpository
+                </a>{" "}
+                <a target="_blank" href="https://google.com">
+                  Deployed App / Video Walkthrough
+                </a>
+              </Card.Text>
             </Card.Body>
           </Card>
         </Col>
         <Col>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Img
+              variant="top"
+              src={require("../assets/images/screenshots/screenshot-p3.svg")}
+              alt={"screenshot of project 3"}
+            />
             <Card.Body>
-              <Card.Title>Project 3</Card.Title>
-              <Card.Text>Copy/Paste from README</Card.Text>
+              <Card.Title>SVG Logo Generator</Card.Title>
+              <Card.Text>
+                {" "}
+                <a target="_blank" href="https://google.com">
+                  Repository
+                </a>{" "}
+                <a target="_blank" href="https://google.com">
+                  Deployed App / Video Walkthrough
+                </a>
+              </Card.Text>
             </Card.Body>
           </Card>
         </Col>
@@ -43,32 +76,61 @@ function Portfolio() {
       <Row xs={1} md={2} className="g-4">
         <Col>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Img
+              variant="top"
+              src={require("../assets/images/screenshots/screenshot-p4.png")}
+              alt={"screenshot of project 4"}
+            />
             <Card.Body>
-              <Card.Title>Project 4</Card.Title>
-              <Card.Text>Copy/Paste from README</Card.Text>
+              <Card.Title>E-Commerce Back End</Card.Title>
+              <Card.Text>
+                {" "}
+                <a target="_blank" href="https://google.com">
+                  Repository
+                </a>{" "}
+                <a target="_blank" href="https://google.com">
+                  Deployed App / Video Walkthrough
+                </a>
+              </Card.Text>
             </Card.Body>
           </Card>
         </Col>
         <Col>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Img
+              variant="top"
+              src={require("../assets/images/screenshots/screenshot-p5.png")}
+              alt={"screenshot of project 5"}
+            />
             <Card.Body>
-              <Card.Title>Project 5</Card.Title>
-              <Card.Text>Copy/Paste from README</Card.Text>
+              <Card.Title>Regex Tutorial</Card.Title>
+              <Card.Text>
+                {" "}
+                <a target="_blank" href="https://google.com">
+                  Repository
+                </a>{" "}
+                <a target="_blank" href="https://google.com">
+                  Gist 
+                </a>
+              </Card.Text>
             </Card.Body>
           </Card>
         </Col>
         <Col>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Img
+              variant="top"
+              src={require("../assets/images/screenshots/screenshot-p6.png")}
+              alt={"screenshot of project 6"}
+            />
             <Card.Body>
-              <Card.Title>Project 6</Card.Title>
-              <Card.Text>Copy/Paste from README</Card.Text>
+              <Card.Title>KidzDirect</Card.Title>
+              <Card.Text>Full-stack MERN Application</Card.Text>
             </Card.Body>
           </Card>
         </Col>
       </Row>
+      <Footer />
     </>
   );
 }
