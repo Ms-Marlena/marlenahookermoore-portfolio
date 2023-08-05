@@ -5,15 +5,14 @@ function About() {
   return (
     <>
       <Stack gap={3}>
-        <div className="py-3">
+        <div className="py-3 p-2">
           <img
             src={require("../assets/images/headshots/MHM-headshot1.jpg")}
             alt={"Marlena Hooker Moore, photo by Wendy Wood"}
             width={200}
-            justifyContent={"text-center"}
             ></img>
         </div>
-        <div className="text-center p-2">
+        <div className="me-auto p-2">
           <p>
             Marlena Hooker Moore hails from King George County, Virginia. If
             you've never heard of it, that's ok. If you have heard of it, are

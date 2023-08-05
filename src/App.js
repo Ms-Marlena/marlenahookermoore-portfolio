@@ -23,7 +23,7 @@ function App() {
   return (
     <div>
       <Header handlePageChange={handlePageChange}/>
-      <nav>
+      <nav className= "p-2">
         <button onClick={() => setPage("Portfolio")}>Portfolio</button>
         <button onClick={() => setPage("About")}>About</button>
         <button onClick={() => setPage("Contact")}>Contact</button>
