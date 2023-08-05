@@ -1,10 +1,10 @@
 import Form from 'react-bootstrap/Form';
 import Header from './Header';
+import Footer from './Footer';
 
 function Contact() {
   return (
     <>
-      <Header />
     <Form>
       <Form.Group className="mb-3" type="text" controlId="contactName">
         <Form.Label>Name</Form.Label>
