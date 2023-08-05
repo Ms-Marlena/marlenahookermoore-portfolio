@@ -8,12 +8,12 @@ import Contact from './components/Contact';
 function App() {
   const [page, setPage] = useState("About");
   function displayPage() {
-    if (page === "Home") {
-    return <Home/>
+    if (page === "About") {
+    return <About/>
   } 
     if (page === "Portfolio") {
     return <Portfolio/>
-    } 
+  } 
     if (page === "Contact") {
     return <Contact/>
   } 

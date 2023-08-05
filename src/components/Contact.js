@@ -1,8 +1,10 @@
-
-import Form from "react-bootstrap/Form";
+import Form from 'react-bootstrap/Form';
+import Header from './Header';
 
 function Contact() {
   return (
+    <>
+      <Header />
     <Form>
       <Form.Group className="mb-3" type="text" controlId="contactName">
         <Form.Label>Name</Form.Label>
@@ -16,7 +18,9 @@ function Contact() {
         <Form.Label>Example textarea</Form.Label>
         <Form.Control as="textarea" rows={3} />
       </Form.Group>
-    </Form>
+      </Form>
+      <Footer />
+      </>
   );
 }
 
