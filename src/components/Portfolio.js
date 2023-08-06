@@ -20,11 +20,18 @@ function Portfolio() {
             <Card.Body>
               <Card.Title>Password Generator</Card.Title>
               <Card.Text>
-                <a target="_blank" href="https://google.com">
+                <a
+                  target="_blank" rel="noreferrer"
+                  href="https://github.com/Ms-Marlena/Password-Generator"
+                >
                   Repository
-                </a>{" "}
-                <a target="_blank" href="https://google.com">
-                  Deployed App / Video Walkthrough
+                </a>
+                <br />
+                <a
+                  target="_blank" rel="noreferrer"
+                  href="https://ms-marlena.github.io/Password-Generator/"
+                >
+                  App
                 </a>
               </Card.Text>
             </Card.Body>
@@ -41,11 +48,18 @@ function Portfolio() {
               <Card.Title>README Generator</Card.Title>
               <Card.Text>
                 {" "}
-                <a target="_blank" href="https://google.com">
-                  REpository
-                </a>{" "}
-                <a target="_blank" href="https://google.com">
-                  Deployed App / Video Walkthrough
+                <a
+                  target="_blank" rel="noreferrer"
+                  href="https://github.com/Ms-Marlena/README-Generator"
+                >
+                  Repository
+                </a>
+                <br />
+                <a
+                  target="_blank" rel="noreferrer"
+                  href=" https://drive.google.com/file/d/1RlDyGs2xUisbCUy_H4nsnUGVOzuvq6tm/view"
+                >
+                  Walkthrough Video
                 </a>
               </Card.Text>
             </Card.Body>
@@ -62,11 +76,18 @@ function Portfolio() {
               <Card.Title>SVG Logo Generator</Card.Title>
               <Card.Text>
                 {" "}
-                <a target="_blank" href="https://google.com">
+                <a
+                  target="_blank" rel="noreferrer"
+                  href="https://github.com/Ms-Marlena/logoGenerator"
+                >
                   Repository
-                </a>{" "}
-                <a target="_blank" href="https://google.com">
-                  Deployed App / Video Walkthrough
+                </a>
+                <br />
+                <a
+                  target="_blank" rel="noreferrer"
+                  href="https://drive.google.com/file/d/1URYaUttk_RjP22ym_3h3GAHXA0PHQdth/view"
+                >
+                  Walkthrough Video
                 </a>
               </Card.Text>
             </Card.Body>
@@ -85,11 +106,18 @@ function Portfolio() {
               <Card.Title>E-Commerce Back End</Card.Title>
               <Card.Text>
                 {" "}
-                <a target="_blank" href="https://google.com">
+                <a
+                  target="_blank" rel="noreferrer"
+                  href="https://github.com/Ms-Marlena/E-Commerce_Back-End"
+                >
                   Repository
-                </a>{" "}
-                <a target="_blank" href="https://google.com">
-                  Deployed App / Video Walkthrough
+                </a>
+                <br />
+                <a
+                  target="_blank" rel="noreferrer"
+                  href="https://github.com/Ms-Marlena/E-Commerce_Back-End"
+                >
+                  Video Walkthrough
                 </a>
               </Card.Text>
             </Card.Body>
@@ -106,11 +134,18 @@ function Portfolio() {
               <Card.Title>Regex Tutorial</Card.Title>
               <Card.Text>
                 {" "}
-                <a target="_blank" href="https://google.com">
+                <a
+                  target="_blank" rel="noreferrer"
+                  href="https://github.com/Ms-Marlena/url-regex-tutorial"
+                >
                   Repository
-                </a>{" "}
-                <a target="_blank" href="https://google.com">
-                  Gist 
+                </a>
+                <br />
+                <a
+                  target="_blank" rel="noreferrer"
+                  href="https://gist.github.com/Ms-Marlena/9a42796da22427b3a4e9a7d1b3268548Links to an external site."
+                >
+                  Gist Link
                 </a>
               </Card.Text>
             </Card.Body>
@@ -124,8 +159,22 @@ function Portfolio() {
               alt={"screenshot of project 6"}
             />
             <Card.Body>
-              <Card.Title>KidzDirect</Card.Title>
-              <Card.Text>Full-stack MERN Application</Card.Text>
+              <Card.Title>KidzDirect group project</Card.Title>
+              <Card.Text>
+                <a
+                  target="_blank" rel="noreferrer"
+                  href="https://github.com/Walter-Conwell/parentSchedulingApp"
+                >
+                  Repository
+                </a>
+                <br />
+                <a
+                  target="_blank" rel="noreferrer"
+                  href="https://github.com/Walter-Conwell/parentSchedulingAppLinks to an external site."
+                >
+                  App
+                </a>
+              </Card.Text>
             </Card.Body>
           </Card>
         </Col>
