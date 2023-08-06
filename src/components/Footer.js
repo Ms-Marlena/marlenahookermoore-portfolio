@@ -7,7 +7,7 @@ const Footer = () => (
         <div className="row">
           <div className="col-md-6 mt-md-0 mt-3"></div>
           <div className="text-center py-3">
-            <p>Find me on:</p>
+            <p>Connect with Marlena on</p>
             <p>
               <a
                 target="_blank"
