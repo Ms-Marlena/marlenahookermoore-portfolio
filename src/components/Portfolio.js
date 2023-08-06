@@ -3,7 +3,6 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import React, { useState } from "react";
 import "../App.css";
-import Header from "./Header";
 import Footer from "./Footer";
 
 function Portfolio() {
@@ -69,7 +68,7 @@ function Portfolio() {
           <Card>
             <Card.Img
               variant="top"
-              src={require("../assets/images/screenshots/screenshot-p3.svg")}
+              src={require("../assets/images/screenshots/screenshot-p3.png")}
               alt={"screenshot of project 3"}
             />
             <Card.Body>
