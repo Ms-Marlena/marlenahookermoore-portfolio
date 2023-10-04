@@ -20,14 +20,16 @@ function Portfolio() {
               <Card.Title>Password Generator</Card.Title>
               <Card.Text>
                 <a
-                  target="_blank" rel="noreferrer"
+                  target="_blank"
+                  rel="noreferrer"
                   href="https://github.com/Ms-Marlena/Password-Generator"
                 >
                   Repository
                 </a>
                 <br />
                 <a
-                  target="_blank" rel="noreferrer"
+                  target="_blank"
+                  rel="noreferrer"
                   href="https://ms-marlena.github.io/Password-Generator/"
                 >
                   App
@@ -48,14 +50,16 @@ function Portfolio() {
               <Card.Text>
                 {" "}
                 <a
-                  target="_blank" rel="noreferrer"
+                  target="_blank"
+                  rel="noreferrer"
                   href="https://github.com/Ms-Marlena/README-Generator"
                 >
                   Repository
                 </a>
                 <br />
                 <a
-                  target="_blank" rel="noreferrer"
+                  target="_blank"
+                  rel="noreferrer"
                   href=" https://drive.google.com/file/d/1RlDyGs2xUisbCUy_H4nsnUGVOzuvq6tm/view"
                 >
                   Walkthrough Video
@@ -76,14 +80,16 @@ function Portfolio() {
               <Card.Text>
                 {" "}
                 <a
-                  target="_blank" rel="noreferrer"
+                  target="_blank"
+                  rel="noreferrer"
                   href="https://github.com/Ms-Marlena/logoGenerator"
                 >
                   Repository
                 </a>
                 <br />
                 <a
-                  target="_blank" rel="noreferrer"
+                  target="_blank"
+                  rel="noreferrer"
                   href="https://drive.google.com/file/d/1URYaUttk_RjP22ym_3h3GAHXA0PHQdth/view"
                 >
                   Walkthrough Video
@@ -106,15 +112,17 @@ function Portfolio() {
               <Card.Text>
                 {" "}
                 <a
-                  target="_blank" rel="noreferrer"
+                  target="_blank"
+                  rel="noreferrer"
                   href="https://github.com/Ms-Marlena/E-Commerce_Back-End"
                 >
                   Repository
                 </a>
                 <br />
                 <a
-                  target="_blank" rel="noreferrer"
-                  href="https://github.com/Ms-Marlena/E-Commerce_Back-End"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://drive.google.com/file/d/1XmeWDQPlnp7MbNJaluAgiHuLC1tcnEG7/view"
                 >
                   Video Walkthrough
                 </a>
@@ -134,14 +142,16 @@ function Portfolio() {
               <Card.Text>
                 {" "}
                 <a
-                  target="_blank" rel="noreferrer"
+                  target="_blank"
+                  rel="noreferrer"
                   href="https://github.com/Ms-Marlena/url-regex-tutorial"
                 >
                   Repository
                 </a>
                 <br />
                 <a
-                  target="_blank" rel="noreferrer"
+                  target="_blank"
+                  rel="noreferrer"
                   href="https://gist.github.com/Ms-Marlena/9a42796da22427b3a4e9a7d1b3268548Links to an external site."
                 >
                   Gist Link
@@ -161,14 +171,16 @@ function Portfolio() {
               <Card.Title>KidzDirect group project</Card.Title>
               <Card.Text>
                 <a
-                  target="_blank" rel="noreferrer"
+                  target="_blank"
+                  rel="noreferrer"
                   href="https://github.com/Walter-Conwell/parentSchedulingApp"
                 >
                   Repository
                 </a>
                 <br />
                 <a
-                  target="_blank" rel="noreferrer"
+                  target="_blank"
+                  rel="noreferrer"
                   href="https://github.com/Walter-Conwell/parentSchedulingAppLinks to an external site."
                 >
                   App
