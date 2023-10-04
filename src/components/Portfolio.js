@@ -183,7 +183,7 @@ function Portfolio() {
                   rel="noreferrer"
                   href="https://github.com/Walter-Conwell/parentSchedulingAppLinks to an external site."
                 >
-                  App
+                  App--Currently Not Deployed
                 </a>
               </Card.Text>
             </Card.Body>
