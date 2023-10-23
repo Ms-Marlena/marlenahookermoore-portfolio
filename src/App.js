@@ -30,7 +30,7 @@ function App() {
         <button>
           <a
             target="_blank"
-            href="https://drive.google.com/file/d/1tFLAIPNn0QB5taGs9mnyr0flAkduM6f1/view"
+            href="https://drive.google.com/file/d/1b6UOjiNWVIVNPS06sIEt3yauIqcrlgNr/view"
           >
             Resume
           </a>
